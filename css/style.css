@@ -1,0 +1,147 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(51, 46, 46);
+ 
+}
+
+ .menup ul{
+  background-color: #407378;
+    
+  width: 100%;
+ }
+ .menup ul li {
+  display: inline;
+ 
+ }
+.menup ul li a{
+  color: antiquewhite;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  
+}
+.menup ul li a:hover{
+  transition: 0.3s;
+  background-color: rgb(44, 26, 144);
+}
+.tema{
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.totopico1{
+  margin: 50%;
+  padding-left: 800x;
+
+}
+div img{
+  width: 600px;
+  height: 400px;
+}
+.menu
+{
+width: 650px;
+padding-left: 50px;
+color: antiquewhite;
+}
+footer img{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(44, 44, 86);
+}
+
+ footer a{
+  margin: 10px;
+  text-align: center;
+  color: antiquewhite;
+ }
+ footer p{
+  text-align: center;
+  margin-top: 2px;
+  font-size: 12px;
+ }
+ 
+a{
+  text-decoration: none;
+  color: white;
+}
+ .inf{
+  font-size: 15px;
+  
+  color: #5BBE42;
+ width: 100%;
+ text-align: center;
+
+ }
+ .mobile-menu-icon {
+   display: none;
+ }
+
+ .mobile-menu {
+   display: none;
+ }
+@media screen and (max-width: 730px) {
+  .menup {
+    padding: 1rem 0.1rem;
+
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    
+  }
+
+  .menup ul li a {
+    display: none;
+  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+ .mobile-menu-icon img{
+  width: 50px;
+  height: 50px;
+}
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: #407378;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding: 0.5rem 2rem;
+    font-size: 18px;
+
+  }
+.sair{
+  text-decoration: none;
+}
+  .mobile-menu ul li a:hover {
+    transition: 0.3s;
+    background-color: rgb(22, 48, 214);
+  }
+
+}
+
+.open {
+  display: block;
+}
+#kubo{
+  width: 700px;
+  height: 700px;
+}
+#yamada{
+  width: 700px;
+  height: 700px;
+}
