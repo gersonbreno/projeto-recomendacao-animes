@@ -3,11 +3,6 @@ document.getElementById('açao').addEventListener('click', function (notificar) 
 
   alert('Essa opção está em manutenção aguarde')
 })
-document.getElementById('romance').addEventListener('click', function (notrm) {
-  notrm.preventDefault()
-
-  alert('Essa opção está em manutenção aguarde')
-})
 
 document
   .getElementById('açao1')
